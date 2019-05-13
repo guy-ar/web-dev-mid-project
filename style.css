@@ -1,0 +1,15 @@
+.container {
+    width: 900px;
+}
+
+header {
+    background-color: gray;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+    width: 100%;
+    
+}
