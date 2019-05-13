@@ -27,9 +27,13 @@ footer {
     list-style: none;
 }
 
-.menu-item {
+.menu-list > .menu-item {
     display: inline;
 
+}
+
+.dropdown-menu-list > .menu-item {
+    display: block;
 }
 
 .menu-item > a {
