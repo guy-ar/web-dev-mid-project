@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
 .container {
     width: 900px;
 }
