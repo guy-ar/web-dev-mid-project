@@ -16,6 +16,7 @@ header {
   height: 100px;
   background-color: lightgray; /* For browsers that do not support gradients */
   background-image: linear-gradient(#8F8F8F,#AAAAAA); 
+  background-image: linear-gradient(#8F8F8F,#DDDDDD); 
 border: solid 1px black; /* to remove at the end */
 }
 footer {
@@ -49,6 +50,7 @@ nav {
 
 .sub-menu-list {
     margin: 0;
+    margin-top: 20px;
     padding: 0;
     /*background-color: gray;*/
     }
@@ -64,11 +66,14 @@ nav {
 }
 
 .main-menu-item {
-    font-size: 14px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .sub-menu-item {
-    font-size: 14px;
+    font-size: 16px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
    /* border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: white;*/
@@ -86,6 +91,7 @@ nav {
 .sub-menu-item  > a {
     /* color: white; */
     color: black;
+   /*display: block;*/
 }
 
 
@@ -95,19 +101,21 @@ nav {
     text-decoration: underline;
 }
 
+.main-menu-item:hover {
+    background-color: rgb(188,188,188); 
+}
+
 .sub-menu-item:hover > a {
    /* correct color but need to be on the li - not on the a */
-    background-color: rgb(188,188,188);
+   /*   background-color: rgb(188,188,188);*/
     color: #0080C2;
     text-decoration: underline;
     
 }
 
-/* to advise with nir - not working well */
+
 .sub-menu-item > a:hover {
-    /* correct color but need to be on the li - not on the a */
-      background-color: rgb(188,188,188); 
-     color: #0080C2;
+         color: #0080C2;
      
  }
  
@@ -120,14 +128,16 @@ nav {
     position: relative;
 }
 
+/* advice with nir about the width */
 .dropdown-menu {
-    /*display: none;*/
+    display: none;
     width: 180px;
     position: absolute;
     top: 100%;
     right: 1%;
     background-color: lightgray; /* for browsers not supporting gradient */
-    background-image: linear-gradient(#8F8F8F,#AAAAAA); 
+    background-image: linear-gradient(#8F8F8F,#AAAAAA);
+    background-image: linear-gradient(#DDDDDD, #8F8F8F); 
 /* just to see the bounderies */
 border: solid 1px black;
 }
