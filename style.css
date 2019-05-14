@@ -147,6 +147,7 @@ border: solid 1px black;
 .img-cube-cont {
     width: 285px;
     position: relative;
+    margin-bottom: 15px;
 }
 
 .img-cube {
@@ -240,7 +241,7 @@ border: solid 1px black;
 }
 
 .flex-container-card {
-    height: 270px;
+    height: 330px;
     justify-content: space-between;
     display: flex;
     border: solid 1px black;
@@ -248,6 +249,8 @@ border: solid 1px black;
 
 .img-cube-small {
     position: relative;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .card-title {
@@ -256,4 +259,35 @@ border: solid 1px black;
     right: 14%;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.inner-card-content {
+    position: absolute;
+    width: 280px;
+    height: 175px;
+    top:13%;
+    /*border: solid 1px black;*/    
+
+}
+
+.card-content-flex {
+    
+    justify-content: space-between;
+    display: flex;
+    /*border: solid 1px black;*/
+}
+
+.legend > ul {
+    list-style: none;
+    padding-right: 25px;
+    margin-top:3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.legend > ul > li {
+    padding-top: 4px;
+    /*margin-top:5px;*/
+    
 }
