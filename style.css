@@ -25,6 +25,8 @@ footer {
     background-color: lightgray; /* for brwosers that do not support gradient */
     width: 100%;
     background-image: linear-gradient(#8F8F8F,#AAAAAA); 
+    background-image: linear-gradient(#8F8F8F,#DDDDDD); 
+border: solid 1px black; /* to remove at the end */
     height: 50px;
     
 }
