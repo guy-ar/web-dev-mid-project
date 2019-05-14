@@ -238,3 +238,22 @@ border: solid 1px black;
     justify-content: space-between;
     border: solid 1px black;
 }
+
+.flex-container-card {
+    height: 270px;
+    justify-content: space-between;
+    display: flex;
+    border: solid 1px black;
+}
+
+.img-cube-small {
+    position: relative;
+}
+
+.card-title {
+    position: absolute;
+    top: -4%;
+    right: 14%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
