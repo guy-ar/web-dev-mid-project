@@ -144,6 +144,84 @@ border: solid 1px black;
 .main-menu-item:hover > .dropdown-menu {
     display: block;
 }
+.img-cube-cont {
+    width: 285px;
+    position: relative;
+}
+
+.img-cube {
+    width: 100%;
+}
+
+.inner-cube  {
+    position: absolute;
+    top: 45%;
+    right:65%;
+    background-color: rgba(132,132, 132, 0.9);
+    width: 240px;
+    height: 120px;
+    
+    border-bottom-right-radius: 20px;
+    
+}
+
+.inner-cube-content {
+    margin-right: 12px;
+    margin-left: 12px;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-cube-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.inner-cube-link > a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.inner-cube-content > p {
+    margin-top: 2px;
+}
+
+.inner-cube-content > h3 {
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.inner-cube-link > a:hover {
+    color: #0080C2;
+    text-decoration: underline;
+}
+.inner-cube-link > a > .arrow-link {
+    display: none;
+}
+.inner-cube-link > a > .arrow-static {
+    display: inline;
+}
+
+
+.inner-cube-link > a:hover > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-link > a:hover > .arrow-static {
+    display: none;
+}
+
+.inner-cube-link > a:active > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-link > a:active > .arrow-static {
+    display: none;
+}
 
 .flex-container {
     display: flex;
