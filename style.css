@@ -267,8 +267,10 @@ border: solid 1px black;
     width: 280px;
     height: 175px;
     top:13%;
-    /*border: solid 1px black;*/    
-
+    border: solid 1px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    
 }
 
 .card-content-flex {
@@ -281,13 +283,30 @@ border: solid 1px black;
 .legend > ul {
     list-style: none;
     padding-right: 25px;
-    margin-top:3px;
+    padding-right: 5pxl
+    /*margin-top:3px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 13px;*/
 }
 
 .legend > ul > li {
     padding-top: 4px;
     /*margin-top:5px;*/
     
+}
+
+.card-description {
+    margin-left: 5px;
+    margin-right: 25px;
+    
+}
+
+.card-img {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 15px;
+
+}
+.card-img > img {
+    border-bottom-left-radius: 8px;
 }
