@@ -446,7 +446,19 @@ border: solid 1px black;
 
 .breadcrumb {
     width: 440px;
+    font-size: 12px;
 }
+
+.breadcrumb > a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb > a:hover {
+    color: #0080C2;
+    text-decoration: underline;
+}
+
 
  .main-container-flex {
     display: flex;
@@ -454,8 +466,10 @@ border: solid 1px black;
     
 }
 .contact-layout {
-    width: 790px;
-    /*margin-left: 24px;*/
+    width: 770px;
+    margin-top: 30px;
+    margin-right: 20px;
+    
 }
 .page-title {
     width: 440px;
@@ -467,5 +481,6 @@ border: solid 1px black;
 
 .form-card {
     position: absolute;
-    top: 20%;
+    top: 0;
+    right: 5%;
 }
