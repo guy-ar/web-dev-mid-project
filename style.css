@@ -48,6 +48,7 @@ nav {
 .logo {
     position: absolute;
     top: 40%;
+    right: -2.5%;
 }
 
 .sub-menu-list {
@@ -327,3 +328,13 @@ border: solid 1px black;
     display: flex;
     justify-content: flex-end;
 }
+
+
+.home {
+    /* not working - need more work - use crop image 
+    background: url(images/menu_home.png) -18px 0; */
+    padding-left: 5px;
+    padding-right: 0px;
+    margin-right: 10px; 
+    border-right: none;
+  } 
