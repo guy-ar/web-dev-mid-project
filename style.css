@@ -157,6 +157,7 @@ border: solid 1px black;
 
 .img-cube {
     width: 100%;
+    border-bottom-right-radius: 20px;
 }
 
 .inner-cube  {
