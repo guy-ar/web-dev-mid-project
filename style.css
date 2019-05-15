@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  height: 100px;
+  height: 105px;
   background-color: lightgray; /* For browsers that do not support gradients */
   background-image: linear-gradient(#8F8F8F,#AAAAAA); 
   background-image: linear-gradient(#8F8F8F,#DDDDDD); 
