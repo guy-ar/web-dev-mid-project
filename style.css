@@ -491,4 +491,15 @@ border: solid 1px black;
     position: absolute;
     top: 0;
     right: 5%;
+    margin-left: 10px;
+}
+
+.form-card > h2 {
+    color: #005ca0;
+    font-size: 15px;
+}
+
+.fill-in-desc {
+    color: #6d6d6d;
+    font-size: 13px;
 }
