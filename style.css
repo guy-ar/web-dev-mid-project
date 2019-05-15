@@ -142,6 +142,8 @@ nav {
     background-color: lightgray; /* for browsers not supporting gradient */
     background-image: linear-gradient(#8F8F8F,#AAAAAA);
     background-image: linear-gradient(#DDDDDD, #8F8F8F); 
+    /* we want the menu to be on top of the pictures i picture will get lower z-index */
+    z-index: 2;
 /* just to see the bounderies */
 border: solid 1px black;
 }
@@ -151,7 +153,8 @@ border: solid 1px black;
 .img-cube-cont {
     width: 285px;
     position: relative;
-    margin-bottom: 15px;
+    /* not needed as ancestor div hold the margin */
+    /*margin-bottom: 15px; */
 }
 
 .img-cube {
@@ -236,7 +239,8 @@ border: solid 1px black;
 }
 
 .flex-container-cube {
-    height: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     width: 100%;
     display: flex;
     align-items: flex-end;
@@ -263,6 +267,9 @@ border: solid 1px black;
     right: 14%;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    /* as we do not want it to hide the dropdown menu - 
+    set the z-index to lower version */
+    z-index: 1;
 }
 
 
