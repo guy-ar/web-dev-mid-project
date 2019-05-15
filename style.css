@@ -327,8 +327,45 @@ border: solid 1px black;
 .inner-cube-sml-link {
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
+
+.inner-cube-sml-link > a {
+    text-decoration: none;
+    color: black;
+    /*text-align: left;*/
+}
+
+
+
+.inner-cube-sml-link > a:hover {
+    color: #0080C2;
+    text-decoration: underline;
+}
+.inner-cube-sml-link > a > .arrow-link {
+    display: none;
+}
+.inner-cube-sml-link > a > .arrow-static {
+    display: inline;
+}
+
+
+.inner-cube-sml-link > a:hover > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-sml-link > a:hover > .arrow-static {
+    display: none;
+}
+
+.inner-cube-sml-link > a:active > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-sml-link > a:active > .arrow-static {
+    display: none;
+}
 
 .home {
     /* not working - need more work - use crop image 
