@@ -460,3 +460,12 @@ border: solid 1px black;
 .page-title {
     width: 440px;
 }
+
+.form-container {
+    position: relative;
+}
+
+.form-card {
+    position: absolute;
+    top: 20%;
+}
