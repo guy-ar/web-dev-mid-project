@@ -417,3 +417,41 @@ border: solid 1px black;
     font-size: 14px;
     text-decoration: none;
   }
+  
+ .contact-flex {
+    display: flex;
+    
+ }
+
+ .menu-bar {
+     width: 110px;
+ }
+
+ .img-cube-med-container {
+     position: relative;
+     margin-top: 95px;
+ }
+ 
+ .img-cube-med-title {
+     position: absolute;
+     top: -1%;
+     right: 5%;
+ }
+  
+ .img-cube-med-content {
+    position: absolute;
+    top: 22%;
+    right: 5%;
+ }
+
+
+/*
+ .form-container {
+     width: 385px;
+ }*/
+.breadcrumb {
+    width: 440px;
+}
+ .main-container {
+    width: 440px;
+}
