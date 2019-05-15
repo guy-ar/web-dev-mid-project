@@ -162,11 +162,11 @@ border: solid 1px black;
 
 .inner-cube  {
     position: absolute;
-    top: 60%;
-    right:5%;
+    top: 68%;
+    right:2%;
     background-color: rgba(132,132, 132, 0.9);
     width: 240px;
-    height: 120px;
+    
     
     border-bottom-right-radius: 20px;
     
@@ -195,6 +195,7 @@ border: solid 1px black;
 
 .inner-cube-content > p {
     margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .inner-cube-content > h3 {
