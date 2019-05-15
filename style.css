@@ -417,11 +417,10 @@ border: solid 1px black;
     font-size: 14px;
     text-decoration: none;
   }
-  
- .contact-flex {
-    display: flex;
-    
- }
+  .contact-flex {
+      display: flex;
+
+  }
 
  .menu-bar {
      width: 110px;
@@ -429,7 +428,6 @@ border: solid 1px black;
 
  .img-cube-med-container {
      position: relative;
-     margin-top: 95px;
  }
  
  .img-cube-med-title {
@@ -445,13 +443,20 @@ border: solid 1px black;
  }
 
 
-/*
- .form-container {
-     width: 385px;
- }*/
+
 .breadcrumb {
     width: 440px;
 }
- .main-container {
+
+ .main-container-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-layout {
+    width: 790px;
+    /*margin-left: 24px;*/
+}
+.page-title {
     width: 440px;
 }
