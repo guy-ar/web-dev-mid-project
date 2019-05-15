@@ -133,7 +133,9 @@ nav {
 /* advice with nir about the width */
 .dropdown-menu {
     display: none;
-    width: 180px;
+    /* possible to give small min width and then if it is bigger it 
+    will be extended, but anotehr option to insure no line break is to use &nbsp; */
+    /*min-width: 160px;*/
     position: absolute;
     top: 100%;
     right: 1%;
