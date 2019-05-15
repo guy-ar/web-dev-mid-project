@@ -151,7 +151,7 @@ border: solid 1px black;
     display: block;
 }
 .img-cube-cont {
-    width: 285px;
+    width: 293px;
     position: relative;
     /* not needed as ancestor div hold the margin */
     /*margin-bottom: 15px; */
