@@ -503,3 +503,32 @@ border: solid 1px black;
     color: #6d6d6d;
     font-size: 13px;
 }
+
+.form-contend > form > small, .text-input > label {
+    font-size: 12px;
+}
+
+.text-input, .textarea-input, .action-button {
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
+
+.text-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
+  .action-button {
+      display: flex;
+      justify-content: flex-end;
+
+  }
+
+  .action-button > input {
+      background-color: #0080C2;
+      color: white;
+  }
