@@ -311,11 +311,17 @@ border: solid 1px black;
 }
 
 .card-img {
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 15px;
-
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 15px;
+    
 }
 .card-img > img {
     border-bottom-left-radius: 8px;
+    
+}
+
+.inner-cube-sml-link {
+    display: flex;
+    justify-content: flex-end;
 }
