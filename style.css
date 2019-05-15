@@ -249,7 +249,6 @@ border: solid 1px black;
 }
 
 .flex-container-card {
-    height: 330px;
     justify-content: space-between;
     display: flex;
     border: solid 1px black;
@@ -257,8 +256,7 @@ border: solid 1px black;
 
 .img-cube-small {
     position: relative;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    
 }
 
 .card-title {
