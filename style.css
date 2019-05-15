@@ -338,3 +338,11 @@ border: solid 1px black;
     margin-right: 10px; 
     border-right: none;
   } 
+
+  .face-icon {
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    border-right: none;
+  }
+
