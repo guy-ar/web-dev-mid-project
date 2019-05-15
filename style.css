@@ -101,15 +101,16 @@ nav {
 }
 
 
-.main-menu-item > a:hover {
+.main-menu-item > a:hover, .footer-menu-item > a:hover {
     background-color:  rgb(188,188,188);
     color: #0080C2;
     text-decoration: underline;
 }
 
-.main-menu-item:hover {
+/* do not exist in new menu - therefore remove it */
+/*.main-menu-item:hover {
     background-color: rgb(188,188,188); 
-}
+}*/
 
 .sub-menu-item:hover > a {
    /* correct color but need to be on the li - not on the a */
