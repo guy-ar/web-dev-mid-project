@@ -402,22 +402,32 @@ nav {
 
  .menu-bar {
      width: 110px;
+     margin-top: 30px;
+ }
+
+ .menu-bar > img {
+     width: 100%;
  }
 
  .img-cube-med-container {
      position: relative;
+     padding-bottom: 20px;
  }
  
  .img-cube-med-title {
      position: absolute;
      top: -1%;
      right: 5%;
+     padding-right: 10px;
+
  }
   
  .img-cube-med-content {
     position: absolute;
     top: 22%;
     right: 5%;
+    padding-right: 10px;
+
  }
 
 
@@ -510,3 +520,20 @@ nav {
       background-color: #0080C2;
       color: white;
   }
+  .img-cube-med-title > h3 {
+      color: #005ca0;
+      font-size: 15px;
+  }
+  .img-cube-med-content {
+      font-size: 13px;
+  }
+
+  .img-cube-med-content > a{
+      text-decoration: none;
+      color: blue;
+  }
+
+  .img-cube-med-content > a:hover {
+    text-decoration: underline;
+  }
+
