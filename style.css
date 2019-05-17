@@ -53,14 +53,14 @@ nav {
 
 .menu-item {
     display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+
     padding: 8px;  
     
 }
 
 .main-menu-item, .footer-menu-item {
-    
-    font-size: 15px;
-    font-weight: 700;
     padding-right: 20px;
     padding-left: 20px;
     border-right-style: solid;
@@ -85,21 +85,13 @@ nav {
 }
 
 .sub-menu-item {
-    font-size: 15px;
     display: block;
- 
 }
 .menu-item > a {
     text-decoration: none;
-    
-}
-
-.main-menu-item  > a, .footer-menu-item > a, .sub-menu-item  > a {
-
     color: white;
     
 }
-
 
 .main-menu-item > a:hover, .footer-menu-item > a:hover {
     background-color:  rgb(188,188,188);
