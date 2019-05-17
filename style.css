@@ -79,6 +79,7 @@ nav {
 
 /* used to set additional flex attributes*/
 .main-menu-list {
+    display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
@@ -228,12 +229,9 @@ nav {
     display: none;
 }
 
-.flex-container {
-    display: flex;
- 
-}
 
 .cube-container {
+    display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
@@ -241,9 +239,9 @@ nav {
     justify-content: space-between;
 }
 
-.flex-container-card {
+.card-container {
     justify-content: space-between;
-    display: flex;
+     display: flex;
 }
 
 .img-cube-small {
