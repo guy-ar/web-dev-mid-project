@@ -110,12 +110,12 @@ nav {
     
 }
 
-
+/*
 .sub-menu-item > a:hover {
          color: #0080C2;
      
  }
- 
+ */
 
 .sub-menu-item:hover {
     background-color: rgb(188,188,188); 
