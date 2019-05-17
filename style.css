@@ -34,7 +34,7 @@ nav {
     position: relative;
 }
 
-.menu-list {
+.main-menu-list, .footer-menu-list {
     padding: 0;
     margin: 0 auto;
     height: 95px;
@@ -74,6 +74,13 @@ nav {
     padding-right: 5px;
     padding-left: 5px;
     font-size: 14px;
+   
+}
+
+/* used to set additional flex attributes*/
+.main-menu-list {
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .sub-menu-item {
@@ -223,15 +230,13 @@ nav {
 
 .flex-container {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+ 
 }
 
 .flex-container-cube {
     margin-top: 30px;
     margin-bottom: 30px;
     width: 100%;
-    display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
