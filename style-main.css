@@ -1,0 +1,130 @@
+.cube-container {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.img-cube-cont {
+    width: 293px;
+    position: relative;
+}
+
+.img-cube {
+    width: 100%;
+    border-bottom-right-radius: 20px;
+}
+
+.inner-cube  {
+    position: absolute;
+    bottom: 7px;
+    right: 5px;
+    background-color: rgba(132,132, 132, 0.9);
+    width: 248px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.inner-cube-content {
+    margin-right: 12px;
+    margin-left: 12px;
+    color: white;
+    font-size: 13px;
+ 
+}
+
+.inner-cube-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.inner-cube-link > a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.inner-cube-content > p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.inner-cube-content > h3 {
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.inner-cube-link > a:hover {
+    color: #0080C2;
+    text-decoration: underline;
+}
+.inner-cube-link > a > .arrow-link {
+    display: none;
+}
+.inner-cube-link > a > .arrow-static {
+    display: inline;
+}
+
+
+.inner-cube-link > a:hover > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-link > a:hover > .arrow-static {
+    display: none;
+}
+
+.inner-cube-link > a:active > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-link > a:active > .arrow-static {
+    display: none;
+}
+
+.inner-cube-sml-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+
+.inner-cube-sml-link > a {
+    text-decoration: none;
+    color: black;
+    /*text-align: left;*/
+}
+
+
+
+.inner-cube-sml-link > a:hover {
+    color: #0080C2;
+    text-decoration: underline;
+}
+.inner-cube-sml-link > a > .arrow-link {
+    display: none;
+}
+.inner-cube-sml-link > a > .arrow-static {
+    display: inline;
+}
+
+
+.inner-cube-sml-link > a:hover > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-sml-link > a:hover > .arrow-static {
+    display: none;
+}
+
+.inner-cube-sml-link > a:active > .arrow-link {
+    display: inline;
+}
+
+.inner-cube-sml-link > a:active > .arrow-static {
+    display: none;
+}

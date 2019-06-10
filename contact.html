@@ -1,444 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <header>
-        <nav class="container">
-            <div class="search">
-                <div class="search-inner"> 
+    
+<div class="container">
+    <div class="contact-flex">
+        <aside class="menu-bar">
+            <!-- <ul class="menu-list">
+                <li>
                     <a href="#">
-                        English
+                        > קשר&nbsp;צרו
                     </a>
-                    
-                    
-                    <div class="search-input">
-                        <input type="text" name="search-txt" placeholder="רשום מילות חיפוש" id="">
-                    </div>
-                    <img src="images/search_button.png" alt="">
-                </div> 
+                </li>
+            </ul> -->
+            <img id="img1" src="images/contact-us-off.jpg" alt="contact-us">
+            
+        </aside>
+        <div class="contact-layout">               
+            <section class="breadcrumb">
+                <a href="#" id="nav-home">עמוד הבית</a> > צור קשר
+                <br>
+            </section>
+            <div class="page-title">
+                <h1>צור קשר</h1>
             </div>
-            <div class="logo">
-                <img src="images/paz_logo.png" alt="pas-logo">
-            </div>
-            <div class="menu-container">
-                <ul class="main-menu-list">
-                    <li class="menu-item main-menu-item home">
-                        <a href="index.html">
-                            <img src="images/home-not-active.png" alt="home"> 
-                            <!--בית-->
-                        </a>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            אודות
-                        </a>
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        אודות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        הסטוריה
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        חזון&nbsp;וערכים
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        מבנה&nbsp;הקבוצה
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        חברי&nbsp;דירקטוריון
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        הנהלת&nbsp;הקבוצה
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        פרסים&nbsp;והוקרה
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            חטיבות
-                        </a>
-                        
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        חטיבות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        קמעונאות&nbsp;ומסחר
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        תעשיות&nbsp;ושירותים
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        זיקוק
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            אחריות&nbsp;תאגידית
-                        </a>
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        אחריות&nbsp;תאגידית
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        הקוד&nbsp;האתי
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        מעורבות&nbsp;חברתית
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        נגישות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        איכות&nbsp;הסביבה&nbsp;ובטיחות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        דירוג&nbsp;מעלה
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            קשרי משקיעים
-                        </a>
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        פרופיל&nbsp;חברה
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        דו"חות&nbsp;למשקיעים
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        כלים&nbsp;למשקיע
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        נתוני&nbsp;מניה
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            תחנות&nbsp;שלנו
-                        </a>
-                        
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        התחנות&nbsp;שלנו
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        רשימת&nbsp;תחנות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        אמון&nbsp;הציבור
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        מועדונים
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            קריירה
-                        </a>
-                        
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        לעבוד&nbsp;בפז
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        ניהול&nbsp;תחנת&nbsp;פז
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        קריירה
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </li>
-                    <!-- <img src="images/menu_sep.png" alt="seperator"> -->
-                    <li class="menu-item dropdown-container main-menu-item">
-                        <a href="#">
-                            חדשות&nbsp;ומדיה
-                        </a>
-                        <div class="dropdown-menu">
-                            <ul class="sub-menu-list">
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        פרסומות
-                                    </a>
-                                </li>
-                                <li class="menu-item sub-menu-item">
-                                    <a href="#">
-                                        הודעות&nbsp;לעיתונות
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="contact-flex">
-                <aside class="menu-bar">
-                   <!-- <ul class="menu-list">
-                        <li>
-                            <a href="#">
-                                > קשר&nbsp;צרו
-                            </a>
-                        </li>
-                    </ul> -->
-                    <img id="img1" src="images/contact-us-off.jpg" alt="contact-us">
+            <div class="main-container-flex">
+                <div class="form-container">
+                    <img src="images/contact_form_bg.png" alt="contact form">
                     
-                </aside>
-                <div class="contact-layout">               
-                    <section class="breadcrumb">
-                        <a href="index.html">עמוד הבית</a> > צור קשר
+                    <div class="form-card">
+                        <h2>צור קשר</h2>
+                        <span class="fill-in-desc">
+                            <Strong>
+                                ליצירת קשר איתנו בכל נושא אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+                            </Strong>
+                        </span>
                         <br>
-                    </section>
-                    <div class="page-title">
-                        <h1>צור קשר</h1>
-                    </div>
-                    <div class="main-container-flex">
-                        <div class="form-container">
-                            <img src="images/contact_form_bg.png" alt="contact form">
-                            
-                            <div class="form-card">
-                                <h2>צור קשר</h2>
-                                <span class="fill-in-desc">
-                                    <Strong>
-                                        ליצירת קשר איתנו בכל נושא אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
-                                    </Strong>
-                                </span>
-                                <br>
-                                
-                                <div class="form-contend">
-                                    <form>
-                                        <small>
-                                                * השדות המסומנים בכוכבית (*) הינם שדות חובה
-                                            </small>
-                                            <br>
-                                        <div class="text-input">
-                                            <label for="fname">* שם פרטי</label>
-                                            <input type="text" name="fname">
-                                        </div>
-                                        <div class="text-input">
-                                            <label for="lname">* שם משפחה</label>
-                                            <input type="text" name="lname">
-                                        </div>    
-                                        <div class="text-input">
-                                            <label for="tel">* טלפון</label>
-                                            <input type="text" name="tel">
-                                        </div>    
-                                        <div class="text-input">
-                                            <label for="email">* E-mail</label>
-                                            <input type="text" name="email">
-                                        </div>    
-                                        <div class="textarea-input">
-                                            <textarea name="comments" id="" cols="33" rows="6">
-
-                                            </textarea>
-                                        </div>
-                                        <div class="action-button">
-                                            <input type="button" value="שלח">
-                                        </div> 
-                                            
-                                    </form>
+                        
+                        <div class="form-contend">
+                            <form>
+                                <small>
+                                        * השדות המסומנים בכוכבית (*) הינם שדות חובה
+                                    </small>
+                                    <br>
+                                <div class="text-input">
+                                    <label for="fname">* שם פרטי</label>
+                                    <input type="text" name="fname">
                                 </div>
-                            </div>
+                                <div class="text-input">
+                                    <label for="lname">* שם משפחה</label>
+                                    <input type="text" name="lname">
+                                </div>    
+                                <div class="text-input">
+                                    <label for="tel">* טלפון</label>
+                                    <input type="text" name="tel">
+                                </div>    
+                                <div class="text-input">
+                                    <label for="email">* E-mail</label>
+                                    <input type="text" name="email">
+                                </div>    
+                                <div class="textarea-input">
+                                    <textarea name="comments" id="" cols="33" rows="6">
+
+                                    </textarea>
+                                </div>
+                                <div class="action-button">
+                                    <input type="button" value="שלח">
+                                </div> 
+                                    
+                            </form>
                         </div>
-                    
-                        <section class="company-dtls-links">
-                            <div class="img-cube-med-container">
-                                <img src="images/cube_bg.png" alt="company-details">
-                                `<div class="img-cube-med-title">
-                                    <h3>פרטי יצירת קשר</h3>        
-                                </div>
-                                <div class="img-cube-med-content">
-                                    <span>
-                                        <strong>
-                                        פז חברת נפט בע"מ
-                                        </strong><br>
-                                        יורו פארק, בניין הולנד<br>
-                                        קיבוץ יקום 60972 <br>
-                                        טל. שירות לקוחות 1-800-774-774 <br>
-                                        פקס 09-8641714 <br>
-                                    </span>
-                                </div>
-                            </div>
-                            
-                            <div class="img-cube-med-container">
-                                <img src="images/cube_bg.png" alt="company-details">
-                                `<div class="img-cube-med-title">
-                                        <h3>עוד בפז</h3>
-                                </div>
-                                <div class="img-cube-med-content">
-                                    <strong>
-                                        רוצים לעבוד בפז?
-                                    </strong><br>
-                                    <a href="#">
-                                            לחצו כאן>>
-                                    </a><br>
-                                    <strong>
-                                            ליצירת קשר עם מנהלת קשרי משקיעים
-                                    </strong><br>      
-                                    <a href="#">
-                                            לחצו כאן>>
-                                    </a><br>
-                                    <strong>
-                                            ליצירת קשר עם שרות לקוחות
-                                    </strong><br>
-                                    <a href="#">
-                                            לחצו כאן>>
-                                    </a>
-                                </div>
-                            </div>
-                        </section>
                     </div>
                 </div>
-            </div>         
-        </div>
-    </main>
-    <footer>
-        <div class="container">
-            <nav class="footer-nav">
-                <ul class="footer-menu-list">
-                    <li class="menu-item footer-menu-item face-icon">
-                        <a href="#">
-                            <img src="images/fb_icon.png" alt="face"> 
-                        </a>
-                    </li>
+            
+                <section class="company-dtls-links">
+                    <div class="img-cube-med-container">
+                        <img src="images/cube_bg.png" alt="company-details">
+                        `<div class="img-cube-med-title">
+                            <h3>פרטי יצירת קשר</h3>        
+                        </div>
+                        <div class="img-cube-med-content">
+                            <span>
+                                <strong>
+                                פז חברת נפט בע"מ
+                                </strong><br>
+                                יורו פארק, בניין הולנד<br>
+                                קיבוץ יקום 60972 <br>
+                                טל. שירות לקוחות 1-800-774-774 <br>
+                                פקס 09-8641714 <br>
+                            </span>
+                        </div>
+                    </div>
                     
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            עמוד הבית
-                        </a>
-                    </li>
-
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            מחירונים
-                        </a>
-                    </li>
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            קריירה
-                        </a>
-                    </li>
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            תנאי שימוש
-                        </a>
-                    </li>
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            נגישות
-                        </a>
-                    </li>
-                    <li class="menu-item footer-menu-item">
-                        <a href="#">
-                            מפת אתר
-                        </a>
-                    </li>
-                    <li class="menu-item footer-menu-item">
-                        <a href="contact.html">
-                            צור קשר
-                        </a>
-                    </li>
-                </ul>
-                <div class="small-logo">
-                    <img src="images/white_logo.png" alt="">
-                </div>
-            </nav>
+                    <div class="img-cube-med-container">
+                        <img src="images/cube_bg.png" alt="company-details">
+                        `<div class="img-cube-med-title">
+                                <h3>עוד בפז</h3>
+                        </div>
+                        <div class="img-cube-med-content">
+                            <strong>
+                                רוצים לעבוד בפז?
+                            </strong><br>
+                            <a href="#">
+                                    לחצו כאן>>
+                            </a><br>
+                            <strong>
+                                    ליצירת קשר עם מנהלת קשרי משקיעים
+                            </strong><br>      
+                            <a href="#">
+                                    לחצו כאן>>
+                            </a><br>
+                            <strong>
+                                    ליצירת קשר עם שרות לקוחות
+                            </strong><br>
+                            <a href="#">
+                                    לחצו כאן>>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
-    </footer>
-</body>
-
-</html>
+    </div>         
+</div>
+    
+    
